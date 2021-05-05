@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "bigdeal";
+    src: url(../aBigDeal.ttf);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: url(../bg_ycle5-01.jpg);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    width: 720px;
+    height: 1080px;
+    background: rgb(255, 255, 255, .80);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "bigdeal";
+    color: black;
+    margin-top: 20px;
+}
+
+.log {
+    margin: 100px;
+    width: 360px;
+    height: 720px;
+    border-radius: 16px;
+    background: rgb(0, 0, 0, .2);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#log2 {
+    height: 520px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#password {
+    padding: 0px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: gray;
+}
+
+#password:hover {
+    border-color: gray;
+}
+
+#password::placeholder {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#email::placeholder {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#email {
+    padding: 0px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: gray;
+}
+
+#email:hover {
+    border-color: gray;
+}
+
+#register {
+    padding: 0px;
+    width: 260px;
+    height: 20px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    background: black;
+    color: white;
+}
+
+label {
+    display: grid;
+    background: yellow;
+    color: grey;
+}
+
+#start {
+    margin: .4rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    width: 260px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#start::placeholder {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#home_address {
+    padding: 0px;
+    width: 260px;
+    height: 40px;
+    border-radius: 8px;
+    line-height: 20px;
+}
+
+#home_address::placeholder {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+#log3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background: yellow;
+    color: grey;
+}
